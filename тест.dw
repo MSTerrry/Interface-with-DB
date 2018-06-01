@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<DeliveryRquestDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Filled>2018-04-07T16:53:25.5621993+05:00</Filled>
+  <FullName>Тухбатшин Михаил</FullName>
+  <WayPoints>
+    <WayPoint>
+      <PlaceTitle>Пятёрочка</PlaceTitle>
+      <Address>Вильгельма-Де-Генина</Address>
+      <ShopType>Магазин</ShopType>
+      <ProductsList>
+        <Product>
+          <Name>Молоко</Name>
+          <Amount>1</Amount>
+          <Additions>Литр</Additions>
+          <Cost>40.1</Cost>
+        </Product>
+        <Product>
+          <Name>Хлеб</Name>
+          <Amount>2</Amount>
+          <Additions />
+          <Cost>30.95</Cost>
+        </Product>
+      </ProductsList>
+      <TotalCost>102.00</TotalCost>
+    </WayPoint>
+    <WayPoint>
+      <PlaceTitle>KFC</PlaceTitle>
+      <Address>На вайнера</Address>
+      <ShopType>Кафе</ShopType>
+      <ProductsList>
+        <Product>
+          <Name>Бигбургер</Name>
+          <Amount>1</Amount>
+          <Additions />
+          <Cost>150</Cost>
+        </Product>
+      </ProductsList>
+      <TotalCost>150</TotalCost>
+    </WayPoint>
+  </WayPoints>
+  <TimeDeliver>2018-04-07T17:53:25</TimeDeliver>
+  <ClientAddress>Краснолесья</ClientAddress>
+  <TotalCost>252.00</TotalCost>
+</DeliveryRquestDto>
